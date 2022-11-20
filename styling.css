@@ -34,6 +34,11 @@ body {
     margin-left: 2px;
 }
 
+/* Nav Bar */
+.nav-bar {
+    margin: 5px;
+    border-radius: 5px;
+}
 /* List for Nav Bar */
 ul {
     list-style-type: none;
@@ -48,9 +53,9 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
 }
 li a:hover {
-  background-color: #111;
+  background-color: rgb(40, 40, 40);
 }
