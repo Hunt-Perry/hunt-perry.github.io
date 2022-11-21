@@ -1,0 +1,109 @@
+{
+    "recipes": [
+        {
+            "recipeDetails": {
+                "title": "BLANK_RECIPE_TITLE",
+                "subtitle": "BLANK_RECIPE_SUBTITLE",
+                "image": "BLANK_RECIPE_IMAGE",
+                "description": "This is a test recipe",
+                "nutrition": {
+                    "caloriesPerServing": 100,
+                    "protein": 100,
+                    "fatTotal": 100,
+                    "fatSaturated": 100,
+                    "carbohydrates": 100,
+                    "sugars": 100,
+                    "sodium": 100,
+                    "fibre": 100
+                },
+                "additionalNotes": "This is testing the additional notes section in the test recipe",
+                "review": "10/10 ~ McLove It"
+            },
+            "recipeIngredients": [0]
+        },
+        {
+            "recipeDetails": {
+                "title": "Nan's Chicken & Broccoli",
+                "subtitle": "with Roasted Veggies & Flaked Almonds",
+                "image": "BLANK_RECIPE_IMAGE",
+                "description": "Chicken, Broccoli & some Roasted Veggies - Pretty simple! But no almonds, because ew.",
+                "nutrition": {
+                    "caloriesPerServing": 595,
+                    "protein": 50.2,
+                    "fatTotal": 26.9,
+                    "fatSaturated": 10.5,
+                    "carbohydrates": 36.2,
+                    "sugars": 15.3,
+                    "sodium-mg": 1075,
+                    "fibre": 15.8
+                },
+                "additionalNotes": "This is testing the additional notes section in the test recipe",
+                "review": "10/10 ~ McLove It"
+            },
+            "recipeIngredients": [0, 1, 2, 3, 4, 5]
+        },
+        {
+            "recipeDetails": {
+                "title": "Easy Chicken Tenders & Crushed Lemon Potatoes",
+                "subtitle": "with Cherry Tomato Salad & Garlic Aoili",
+                "image": "BLANK_RECIPE_IMAGE",
+                "description": "",
+                "nutrition": {
+                    "caloriesPerServing": 608,
+                    "protein": 43.6,
+                    "fatTotal": 32.6,
+                    "fatSaturated": 6.9,
+                    "carbohydrates": 32.3,
+                    "sugars": 6.9,
+                    "sodium-mg": 1126,
+                    "fibre": 6.4
+                },
+                "additionalNotes": "",
+                "review": ""
+            },
+            "recipeIngredients": [0, 6, 7, 8, 9, 3, 10, 11, 12, 13, 14, 15, 16]
+        },
+        {
+            "recipeDetails": {
+                "title": "Classic Chicken Parmigiana",
+                "subtitle": "with Cherry Tomato Salad",
+                "image": "BLANK_RECIPE_IMAGE",
+                "description": "",
+                "nutrition": {
+                    "caloriesPerServing": 601,
+                    "protein": 49.5,
+                    "fatTotal": 27,
+                    "fatSaturated": 11.9,
+                    "carbohydrates": 37.3,
+                    "sugars": 11.2,
+                    "sodium-mg": 802,
+                    "fibre": 6.3
+                },
+                "additionalNotes": "",
+                "review": ""
+            },
+            "recipeIngredients": [0, 17, 18, 13, 19, 20, 21, 22, 23, 15]
+        },
+        {
+            "recipeDetails": {
+                "title": "Sticky Sesame Lemon Chicken",
+                "subtitle": "with Bacon, Egg & Veggie Fried Rice",
+                "image": "BLANK_RECIPE_IMAGE",
+                "description": "",
+                "nutrition": {
+                    "caloriesPerServing": 732,
+                    "protein": 48.7,
+                    "fatTotal": 24,
+                    "fatSaturated": 6.9,
+                    "carbohydrates": 76.6,
+                    "sugars": 26.5,
+                    "sodium-mg": 1292,
+                    "fibre": null
+                },
+                "additionalNotes": "",
+                "review": ""
+            },
+            "recipeIngredients": [0, 24, 2, 25, "..."]
+        }
+    ]
+}
