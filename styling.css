@@ -5,7 +5,6 @@ body {
 	font-size: 18px;
 	font-size: 1rem;
 	line-height: 1.5;
-	margin: 0;
 }
 
 /* Dropdown Menu */
@@ -60,9 +59,75 @@ li a:hover {
   background-color: rgb(40, 40, 40);
 }
 
+/* cookbook.html */
 #cookbook {
     background-color: rgb(54, 54, 54);
     margin: 10px;
     border-radius: 5px;
+    padding: 1px 10px 10px 10px; /* Top */
+}
+
+.recipeProfile {
+    background-color: rgb(206, 6, 6);
+    border-radius: 5px;
     padding-left: 10px;
 }
+
+.recipeTitle {
+    font-size: 18px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+.recipeSubTitle {
+    font-size: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.recipeIngredients {
+    font-size: 12px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+/* Collapsible */
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
