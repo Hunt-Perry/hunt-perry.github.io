@@ -4,163 +4,295 @@
             "code": 0,
             "name": "Olive Oil",
             "amount": "As required.",
-            "measurement": null
+            "measurement": null,
+            "filterType": null
         },
         {
             "code": 1,
             "name": "Sweet Potato",
             "amount": 1,
-            "measurement": null
+            "measurement": null,
+            "filterType": "FruitVeg"
         },
         {
             "code": 2,
             "name": "Carrot",
             "amount": 0.5,
-            "measurement": null
+            "measurement": null,
+            "filterType": "FruitVeg"
         },
         {
             "code": 3,
             "name": "Chicken-style Stock Powder",
             "amount": 0.5,
-            "measurement": "Medium Sachet"
+            "measurement": "Medium Sachet",
+            "filterType": null
         },
         {
             "code": 4,
             "name": "Nan's Special Seasoning",
             "amount": 0.5,
-            "measurement": "Medium Sachet"
+            "measurement": "Medium Sachet",
+            "filterType": null
         },
         {
             "code": 5,
             "name": "Light Cooking Cream",
             "amount": 0.5,
-            "measurement": "Medium Packet"
+            "measurement": "Medium Packet",
+            "filterType": null
         },
         {
             "code": 6,
             "name": "Potato",
             "amount": 1,
-            "measurement": null
+            "measurement": null,
+            "filterType": "FruitVeg"
         },
         {
             "code": 7,
             "name": "Lemon",
             "amount": 0.25,
-            "measurement": null
+            "measurement": null,
+            "filterType": "FruitVeg"
         },
         {
             "code": 8,
             "name": "Butter",
             "amount": 15,
-            "measurement": "Gram"
+            "measurement": "Gram",
+            "filterType": null
         },
         {
             "code": 9,
             "name": "Garlic Paste",
             "amount": 0.5,
-            "measurement": "Packet"
+            "measurement": "Packet",
+            "filterType": null
         },
         {
             "code": 10,
             "name": "Water",
             "amount": 0.5,
-            "measurement": "Tbs"
+            "measurement": "Tbs",
+            "filterType": null
         },
         {
             "code": 11,
             "name": "Aussie Spice Blend",
             "amount": 0.5,
-            "measurement": "Medium Packet"
+            "measurement": "Medium Packet",
+            "filterType": null
         },
         {
             "code": 12,
             "name": "Chicken Tenderloins",
             "amount": 0.5,
-            "measurement": "Small Packet"
+            "measurement": "Small Packet",
+            "filterType": "Meat"
         },
         {
             "code": 13,
             "name": "Snacking Tomatoes",
             "amount": 0.5,
-            "measurement": "Punnet"
+            "measurement": "Punnet",
+            "filterType": "FruitVeg"
         },
         {
             "code": 14,
             "name": "Honey",
             "amount": 0.25,
-            "measurement": "Tsp"
-        },
-        {
-            "code": 14,
-            "name": "Balsamic Vinegar",
-            "amount": "As required.",
-            "measurement": null
+            "measurement": "Tsp",
+            "filterType": null
         },
         {
             "code": 15,
             "name": "Mixed Salad Leaves",
             "amount": 0.5,
-            "measurement": "Medium Bag"
+            "measurement": "Medium Bag",
+            "filterType": "FruitVeg"
         },
         {
             "code": 16,
             "name": "Garlic Aioli",
             "amount": 0.5,
-            "measurement": "Medium Packet"
+            "measurement": "Medium Packet",
+            "filterType": null
         },
         {
             "code": 17,
             "name": "Brown Onion",
             "amount": 0.25,
-            "measurement": null
+            "measurement": null,
+            "filterType": "FruitVeg"
         },
         {
             "code": 18,
             "name": "Garlic",
             "amount": 0.5,
-            "measurement": "Clove" 
+            "measurement": "Clove",
+            "filterType": "FruitVeg"
         },
         {
             "code": 19,
             "name": "Passata",
             "amount": 0.5,
-            "measurement": "Clove" 
+            "measurement": "Small Sachet",
+            "filterType": null
         },
         {
             "code": 20,
             "name": "Salt",
             "amount": 0.125,
-            "measurement": "Tsp" 
+            "measurement": "Tsp",
+            "filterType": null
         },
         {
             "code": 21,
             "name": "Brown Sugar",
             "amount": 0.25,
-            "measurement": "Tsp" 
+            "measurement": "Tsp",
+            "filterType": null
         },
         {
             "code": 22,
-            "name": "Butter",
-            "amount": 10,
-            "measurement": "Gram"
+            "name": "White Wine Vinegar",
+            "amount": "As required.",
+            "measurement": null,
+            "filterType": null
         },
         {
             "code": 23,
-            "name": "White Wine Vinegar",
-            "amount": "As required.",
-            "measurement": null
+            "name": "Spring Onion",
+            "amount": "0.5",
+            "measurement": "Stem",
+            "filterType": "FruitVeg"
         },
         {
             "code": 24,
-            "name": "Spring Onion",
+            "name": "Green Bean",
             "amount": "0.5",
-            "measurement": "Stem"
+            "measurement": "Small Bag",
+            "filterType": "FruitVeg"
         },
         {
             "code": 25,
-            "name": "Green Bean",
-            "amount": "0.5",
-            "measurement": "Small Bag"
+            "name": "Beef Strips",
+            "amount": 0.5,
+            "measurement": "Small Packet",
+            "filterType": "Meat"
+        },
+        {
+            "code": 26,
+            "name": "Sweet Chilli Sauce",
+            "amount": 0.5,
+            "measurement": "Small Packet",
+            "filterType": null
+        },
+        {
+            "code": 27,
+            "name": "Soy Sauce",
+            "amount": 0.5,
+            "measurement": "Tbs",
+            "filterType": null
+        },
+        {
+            "code": 28,
+            "name": "Shredded Cabbage Mix",
+            "amount": 0.5,
+            "measurement": "Medium Bag",
+            "filterType": "FruitVeg"
+        },
+        {
+            "code": 29,
+            "name": "Pickled Ginger",
+            "amount": 0.5,
+            "measurement": "Packet",
+            "filterType": "FruitVeg"
+        },
+        {
+            "code": 30,
+            "name": "Broccoli",
+            "amount": 0.5,
+            "measurement": "Head",
+            "filterType": "FruitVeg"
+        },
+        {
+            "code": 31,
+            "name": "Chicken Breast",
+            "amount": 0.5,
+            "measurement": "Small Packet",
+            "filterType": "Meat"
+        },
+        {
+            "code": 32,
+            "name": "Balsamic Vinegar",
+            "amount": "As required.",
+            "measurement": null,
+            "filterType": null
+        },
+        {
+            "code": 33,
+            "name": "Plain Flour",
+            "amount": 1,
+            "measurement": "Tbs",
+            "filterType": null
+        },
+        {
+            "code": 34,
+            "name": "Egg",
+            "amount": 0.5,
+            "measurement": null,
+            "filterType": null
+        },
+        {
+            "code": 35,
+            "name": "Panko Breadcrumbs",
+            "amount": 0.5,
+            "measurement": "Medium Packet",
+            "filterType": null
+        },
+        {
+            "code": 36,
+            "name": "Shredded Cheddar Cheese",
+            "amount": 0.5,
+            "measurement": "Medium Packet",
+            "filterType": null
+        },
+        {
+            "code": 37,
+            "name": "Diced Bacon",
+            "amount": 45,
+            "measurement": "Gram",
+            "filterType": "Meat"
+        },
+        {
+            "code": 38,
+            "name": "Microwaveable Basmati Rice",
+            "amount": 0.5,
+            "measurement": "Packet",
+            "filterType": null
+        },
+        {
+            "code": 39,
+            "name": "Sesame Seeds",
+            "amount": 0.5,
+            "measurement": "Medium Packet",
+            "filterType": null
+        },
+        {
+            "code": 40,
+            "name": "Chicken Thigh",
+            "amount": 0.5,
+            "measurement": "Small Packet",
+            "filterType": "Meat"
+        },
+        {
+            "code": 41,
+            "name": "Cornflour",
+            "amount": 0.5,
+            "measurement": "Medium Packet",
+            "filterType": null
         }
     ]
 }

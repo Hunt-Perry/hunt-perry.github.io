@@ -6,6 +6,7 @@
         <script src="./scripts/main.js"></script>
         <script src="./cookbook/cook.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
     <body>
         <!-- Navigation Bar -->
@@ -15,25 +16,37 @@
 
         <!-- LinkedIn Feed -->
         
-        <h1>Hello World! - Cookbook.html</h1>
-        <button onclick="getRecipes()"> Get Recipes! </button>
-        <button onclick="getIngredients()"> Get Ingredients! </button>
-        <p>I'm hosted with GitHub Pages.</p>
+        <h1 id="pageTitle">My Cookbook</h1>
+        
 
-        <button class="collapsible">Open Section 1</button>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div id="cookbook">
+            <button class="collapsible" id="shoppingListTitle"></button>
+            <div class="content" id="shoppingListContents">
+                <div id="shoppingListContents_FruitVeg"></div><br>
+                <div id="shoppingListContents_Meat"></div><br>
+                <div id="shoppingListContents_Other"></div>
+            </div>
+            <br>
+            <a class="button" onclick="getNewRecipes()">Give me New Recipes</a>
+            <input class="textIn" type="text" id="myText" placeholder="# of People">
+            <button class="collapsible" id="monTitle"></button>
+            <div class="content" id="monContents"></div>
+            <button class="collapsible" id="tueTitle"></button>
+            <div class="content" id="tueContents"></div>
+            <button class="collapsible" id="wedTitle"></button>
+            <div class="content" id="wedContents"> </div>
+            <button class="collapsible" id="thuTitle"></button>
+            <div class="content" id="thuContents"> </div>
+            <button class="collapsible" id="friTitle"></button>
+            <div class="content" id="friContents"></div>
+            <button class="collapsible" id="satTitle"></button>
+            <div class="content" id="satContents"></div>
+            <button class="collapsible" id="sunTitle"></button>
+            <div class="content" id="sunContents"></div>
+            
         </div>
-        <button class="collapsible">Open Section 2</button>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="collapsible">Open Section 3</button>
-        <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+        
 
-        <div id="cookbook"></div>
 
     </body>
 </html>
