@@ -1,0 +1,110 @@
+ /* Collapsible */
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0px 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  color:rgb(40, 40, 40);
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* Buttons */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px 0px 0px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #af634c;
+}
+ 
+ /* Text Input */
+ .textIn {
+  background-color: rgb(76, 175, 80);
+  border: none;
+  color: white;
+  padding: 12px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px 0px 0px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* cookbook.html */
+#cookbook {
+  background-color: rgb(54, 54, 54);
+  margin: 10px;
+  border-radius: 5px;
+  padding: 1px 10px 10px 10px; /* Top */
+}
+
+.recipeProfile {
+  background-color: rgb(206, 6, 6);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.recipeTitle {
+  font-size: 18px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+
+.recipeSubTitle {
+  font-size: 15px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.recipeIngredients {
+  font-size: 12px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-right: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+}
