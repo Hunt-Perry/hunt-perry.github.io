@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>LP Essentials</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="title-container">
+    <h1 style="margin-bottom: 0px;" class="title-left-element">LP Tweaks</h1>
+    <svg id="moreOptions" class="title-right-element" fill="none" height="32" viewBox="0 0 32 32" width="32">
+      <path d="M15 29.5C6.99187 29.5 0.5 23.0081 0.5 15C0.5 6.99187 6.99187 0.5 15 0.5C23.0081 0.5 29.5 6.99187 29.5 15C29.5 23.0081 23.0081 29.5 15 29.5Z" stroke="#A9AFBA"></path><path d="M15.917 9.04163C15.917 9.80102 15.3014 10.4166 14.542 10.4166C13.7826 10.4166 13.167 9.80102 13.167 9.04163C13.167 8.28223 13.7826 7.66663 14.542 7.66663C15.3014 7.66663 15.917 8.28223 15.917 9.04163ZM14.542 15.9166C15.3014 15.9166 15.917 15.301 15.917 14.5416C15.917 13.7822 15.3014 13.1666 14.542 13.1666C13.7826 13.1666 13.167 13.7822 13.167 14.5416C13.167 15.301 13.7826 15.9166 14.542 15.9166ZM14.542 21.4166C15.3014 21.4166 15.917 20.801 15.917 20.0416C15.917 19.2822 15.3014 18.6666 14.542 18.6666C13.7826 18.6666 13.167 19.2822 13.167 20.0416C13.167 20.801 13.7826 21.4166 14.542 21.4166Z" fill="white"></path>
+    </svg>
+      <div id="moreOptionsContent" class="title-right-element dropdown-content hidden">
+          <a class="dropdown-option" id="developerLink">Developer Hub</a><br>
+          <a class="dropdown-option" id="knowledgeLink">Knowledge Hub</a><br>
+          <a class="dropdown-option" id="jiraLink">JIRA</a><br>
+          <a class="dropdown-option" id="confluenceLink">Confluence</a><br>
+          <a class="dropdown-option" id="salesforceLink">SalesForce</a><br>
+          <a class="dropdown-option" id="chatgptLink">ChatGPT</a><br>
+          <a class="dropdown-option" id="feedbackLink">Feedback Form</a>
+      </div>
+  </div>
+  <p style="margin-top: 0px;" class="underlined"><i>by Hunter Perry (ETS APAC)</i></p>
+
+    <p style="margin-bottom: 4px;"><b>My Credentials:</b></p>
+    <div class="underlined">
+      <div class="div-container">
+        <input type="text" name="username" id ="userName" autocomplete="username" placeholder="Username" />
+        <input type="password" name="password" id="passWord" autocomplete="current-password" placeholder="Password"/>
+      </div>
+      <div class="div-container">
+        <input class="hidden" type="text" name="persAccountId" id ="persAccountId" autocomplete="persAccountId" placeholder="Personal Account ID" />
+        <button class="hidden" id="saveCredentials">Save</button>
+      </div>
+    </div>
+    
+    <div class="underlined" id="accountSelectionContainer">
+      <label for="accountDropdown"><b>Select an Account:</b></label><br>
+      <select id="accountDropdown"></select>
+    </div>
+
+    <div class="underlined hidden" id="accountEditContainer">
+      <p><b>Add New Account:</b></p>
+
+      <div class="div-container">
+        <input class="div1" type="text" id="accountNumber" placeholder="Account ID">
+        <input class="div1" type="text" id="brandName" placeholder="Brand Name">
+      </div>
+      <div class="div-container">
+        <select class="div1" name="accountList" id="accountList">
+          <option value="none">Acc. Type</option>
+          <option value="prod">Prod</option>
+          <option value="clone">Clone</option>
+          <option value="uat">UAT</option>
+          <option value="dev">Dev</option>
+        </select>
+        <button class="div1" id="goBack">Back</button>
+        <button class="div1" id="addAccountButton">Submit</button>
+      </div>
+    </div>
+
+    <div class="underlined hidden" id="actionsMenu">
+      <p>LPA Status for <span id="lpaAccountId" style="font-weight: bold;"></span>: <span id="lpaAccountStatus">Normal</span></p>
+      <p class="hidden" id="expiryTime">Expires in: <span id="timeToExpiry">0</span>m</p>
+
+      <p><b>Available Actions</b></p>
+
+      <div class="div-container actions">
+        <button class="div1" id="action_openHouston">Houston</button>
+        <button class="div1" id="action_openSupportal">Supportal</button>
+        <button class="div1" id="action_elevateLpa">Log In (eLPA)</button>
+      </div>
+      <div class="div-container actions">
+        <button class="div1" id="action_openKibana">Kibana</button>
+        <button class="div1" id="action_openSandbox">LP Sandbox</button>
+        <button class="div1" id="action_openCC">Log In</button>
+      </div>
+      <div class="div-container hidden" id="elevateLPAContainer">
+        <input class="div1" type="text" id="reason" placeholder="Reason">
+        <button class="div2" id="elevateLpa">Start</button>
+      </div>
+      <div class="underlined"></div><br>
+      <div class="div-container actions">
+        <button class="div1" id="action_editEntry">Edit Entry</button>
+        <button class="div1" id="action_removeEntry">Remove Entry</button>
+      </div>
+
+      
+    </div>
+
+  <script src="./scripts/extension/main.js"></script>
+
+</body>
+</html>

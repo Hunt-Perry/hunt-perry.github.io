@@ -1,0 +1,73 @@
+{
+  "manifest_version": 3,
+  "name": "LP Tweaks",
+  "description": "Make your life just that little easier with LP tweaks! Built by Hunter Perry (ETS APAC) as a 'little side project'. ",
+  "version": "1.4",
+  "action": {
+    "default_popup": "main.html",
+    "default_icon": "extensionIcon.png"
+  },
+  "permissions": [
+    "activeTab", "scripting", "storage"
+  ],
+  "host_permissions": [
+    "https://server.sy.liveperson.net/*",
+    "https://va-e.c.liveperson.net/*",
+    "https://va-a.c.liveperson.net/*",
+    "https://va-a2.c.liveperson.net/*",
+    "https://va-s.c.liveperson.net/*",
+    "https://va-e.c.liveperson.net/*",
+    "https://va-e.c.liveperson.net/*",
+    "https://server.lon.liveperson.net/*",
+    "https://server.iad.liveperson.net/*",
+    "https://sales.liveperson.net/*",
+    "https://server.ca.liveperson.net/*",
+    "https://am.c.liveperson.net/*",
+    "https://me.c.liveperson.net/*",
+    "https://dev.liveperson.net/*",
+    "https://authentication.liveperson.net/login.html*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://authentication.liveperson.net/login.html?lpservice=leBackofficeInt&servicepath=a%2F~~accountid~~%2F%23%2C~~ssokey~~*",
+        "https://z1.houston.int.liveperson.net/*",
+        "https://z2.houston.int.liveperson.net/*",
+        "https://z3.houston.int.liveperson.net/*"
+      ],
+      "js": [
+        "scripts/houston/openHouston.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://authentication.liveperson.net/login.html*",
+        "https://authentication.liveperson.net/legacyLogin.html*"
+      ],
+      "js": [
+        "scripts/lpa/elevateLPAdmin-ConvCloud.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://server.sy.liveperson.net/*",
+        "https://va-e.c.liveperson.net/*",
+        "https://va-a.c.liveperson.net/*",
+        "https://va-a2.c.liveperson.net/*",
+        "https://va-s.c.liveperson.net/*",
+        "https://va-e.c.liveperson.net/*",
+        "https://va-e.c.liveperson.net/*",
+        "https://server.lon.liveperson.net/*",
+        "https://server.iad.liveperson.net/*",
+        "https://sales.liveperson.net/*",
+        "https://server.ca.liveperson.net/*",
+        "https://am.c.liveperson.net/*",
+        "https://me.c.liveperson.net/*",
+        "https://dev.liveperson.net/*"
+      ],
+      "js": [
+        "scripts/lpa/elevateLPAdmin-listener.js"
+      ]
+    }
+  ]
+}
